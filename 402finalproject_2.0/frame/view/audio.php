@@ -1,12 +1,12 @@
 <?php
 /**
- * audio.php - audio viewer class for 402 framework
+ * audio.php - audio viewer class for 402 project
  */
 
 require_once VIEW_DIR."html_builder.php";
 
 /**
- * load and initialise Audio Viewer class for 402 framework
+ * load and initialise Audio Viewer class for 402 project
  */
 class AudioViewer extends BuildHTML {
 

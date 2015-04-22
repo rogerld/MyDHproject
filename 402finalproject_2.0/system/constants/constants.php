@@ -1,6 +1,6 @@
 <?php
 /**
- * constants - various constants for the 402 framework
+ * constants - various constants for the 402 project
  */
 
 //framework general constants
@@ -54,6 +54,8 @@ define("DB_CONTENT_GROUP", "content_group");
 define("DB_CONTENT_IMAGE", "contentimage");
 define("DB_CONTENT_TEXT", "contenttext");
 define("DB_CONTENT_MAP", "contentmap");
+define("DB_CONTENT_AUDIO", "contentaudio");
+define("DB_CONTENT_VIDEO", "contentvideo");
 
 //DB plugin constants
 define("DB_PLUGINS", "plugins");

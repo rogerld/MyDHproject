@@ -1,12 +1,12 @@
 <?php
 /**
- * gallery.php - gallery viewer class for 402 framework
+ * audiogallery.php - audiogallery viewer class for 402 project
  */
 
 require_once VIEW_DIR."html_builder.php";
 
 /**
- * load and initialise Gallery Viewer class for 402 framework
+ * load and initialise AudioGallery Viewer class for 402 project
  */
 class AudioGalleryViewer extends BuildHTML {
 
@@ -19,7 +19,7 @@ class AudioGalleryViewer extends BuildHTML {
 	private static $link = "a";
 
 	/**
-	 * return the formatted gallery view content
+	 * return the formatted audio_gallery view content
 	 */
 	function get_group_content($content, $group_viewer_attributes, $taxonomy_attributes) {
 	$this->format_audio_gallery_view($content, $group_viewer_attributes, $taxonomy_attributes);

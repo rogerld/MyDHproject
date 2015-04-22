@@ -1,12 +1,12 @@
 <?php
 /**
- * video.php - video viewer class for 402 framework
+ * video.php - video viewer class for 402 project
  */
 
 require_once VIEW_DIR."html_builder.php";
 
 /**
- * load and initialise Video Viewer class for 402 framework
+ * load and initialise Video Viewer class for 402 project
  */
 class VideoViewer extends BuildHTML {
 

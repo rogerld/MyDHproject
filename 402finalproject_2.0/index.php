@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <?php
 /**
- * index.php - index page for the 402 framework
+ * index.php - index page for the framework
  */
 
 //load the directory constants for the framework

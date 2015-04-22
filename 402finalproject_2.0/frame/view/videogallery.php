@@ -1,12 +1,12 @@
 <?php
 /**
- * gallery.php - gallery viewer class for 402 framework
+ * videogallery.php - video gallery viewer class for 402 framework
  */
 
 require_once VIEW_DIR."html_builder.php";
 
 /**
- * load and initialise Gallery Viewer class for 402 framework
+ * load and initialise VideoGalleryViewer class for 402 framework
  */
 class VideoGalleryViewer extends BuildHTML {
 
@@ -19,7 +19,7 @@ class VideoGalleryViewer extends BuildHTML {
 	private static $link = "a";
 
 	/**
-	 * return the formatted gallery view content
+	 * return the formatted video_gallery_view content
 	 */
 	function get_group_content($content, $group_viewer_attributes, $taxonomy_attributes) {
 	$this->format_video_gallery_view($content, $group_viewer_attributes, $taxonomy_attributes);

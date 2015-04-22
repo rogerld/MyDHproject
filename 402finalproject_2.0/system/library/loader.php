@@ -1,6 +1,6 @@
 <?php
 /**
- * loader.php - main loader for 402 framework
+ * loader.php - main loader for 402 project
  */
 
 //require assorted non-specific functions for the framework
@@ -11,7 +11,7 @@ require_once CONSTANTS_DIR."constants.php";
 require_once LIBRARY_DIR."error_functions.php";
 
 /**
- * load and initialise Loader for 402 framework
+ * load and initialise Loader for project framework
  */
 class Loader {
 
@@ -93,7 +93,7 @@ function load_controller($controller = null, $controller_dir = null, $format = n
 	else {
 	View::selected_theme();
 	//temporary handler for home page...
-	$content = "<h3>Welcome to the 402 framework</h3>";
+	$content = "<h3> <br>Welcome to China Tour!</br><br>欢迎加入中国文化之旅！</br></h3>";
 	self::$content_meta = null;
 	self::$plugins = null;
 	$related_links = null;

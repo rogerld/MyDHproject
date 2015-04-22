@@ -1,6 +1,6 @@
 <?php
 /**
- * directory.php - set constants for directories for 402 framework
+ * directory.php - set constants for directories for 402 project
  */
 
 //base framework directory - get current working directory

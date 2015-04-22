@@ -1,6 +1,6 @@
 <?php
 /**
- * view.php - view loader for framework template for 402 framework
+ * view.php - view loader for framework template for 402 project
  */
 
 require_once VIEW_DIR."html_builder.php";
@@ -285,7 +285,7 @@ class View extends BuildHTML {
 		$logo = $settings['project_logo'];
 		$menu_class = "horizontal_menu";
 		$attributes = array("id"=>HTML_HEADER,"class"=>HTML_HEADER_CLASS);
-		$logo_attributes = array("src"=>DESIGN_IMAGES_DIR.$logo, "alt"=>"framework default logo", "title"=>"402 framework", "class"=>"logo");
+		$logo_attributes = array("src"=>DESIGN_IMAGES_DIR.$logo, "alt"=>"framework default logo", "title"=>"China Tour", "class"=>"logo");
 		$header_start = BuildHTML::start_element(self::$div, $attributes);
 		$header_end = BuildHTML::end_element(self::$div);
 		$logo_start = BuildHTML::start_element(self::$img, $logo_attributes);

@@ -1,6 +1,6 @@
 <?php
 /**
- * settings.php - site wide generic settings for 402 framework
+ * settings.php - site wide generic settings 
  */
  
  global $settings;
@@ -8,7 +8,7 @@
  //project defined settings
  $settings['project_title'] = "China Tour";
  $settings['project_director'] = "director";
- $settings['project_logo'] = "chinaLogo.jpg";
+ $settings['project_logo'] = "chinaLogo3.jpg";
 
  //HTML meta
  $settings['meta_keywords'] = "China Tour";
