@@ -1,2 +1,2 @@
-My Final Project for DH402
-Updated version
+Final Project for DH402
+Created by Di Luo, Amanda Jensen
